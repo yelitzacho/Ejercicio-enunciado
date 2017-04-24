@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	top: 10px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 1000px;
+	height: 50px;
+}
+
+#header-left{
+	position: absolute;
+}
+
+#icono-medium{
+	position: absolute;
+}
+
+.icon-medium .path1{
+  	font-size: 35px;
+}
+.icon-medium .path2{
+	font-size: 35px;
+}
+.icon-medium .path3{
+	font-size: 35px;
+}
+.icon-medium .path4{
+	font-size: 35px;
+}
+
+#barra-vertical{
+	position: absolute;
+	top: 0;
+}
+
+#img-cabecera{
+	position: absolute;
+	width: 95px;
+	height: 37px;
+	top: 0;
+	left: 36px;
+}
+
+#iconos-redes-sociales{
+	position: absolute;
+	top: 13px;
+	left: 150px;
+	font-size: 20px;
+	color: rgba(0,0,0,.6);
+}
+
+.icon-twitter{
+	position: absolute;
+}
+
+.icon-facebook{
+	position: absolute;
+	left: 35px;
+}
+
+#header-rigth{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.edit{
+	position: absolute;
+}
+
+.icon-Seach{
+	position: absolute;
+}
+
+#circulo-verde{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: #02B875;
+}
+
+.icon-notification{
+
+}
+
+#general-body{
+	position: relative;
+	width: 740px;
+	margin: 0 auto;
+	padding: 0;
+	top: 30px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #404040;
+}
+
+#user{
+	display: inline-block;
+
+}
+
+#foto-user{
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	/*display: inline-block;*/
+}
+
+#user div{
+	display: inline-block;
+	margin: 0 0 0 13px;
+}
+
+.texto-user{
+	font-size: 0.75rem;
+	padding-bottom: 2px;
+	color: #a9a9a9;
+}
+
+#name-user{
+	font-size: 1rem;
+}
+
+#follow{
+	width: 65px;
+	height: 18px;
+	border: 2px solid #02B875;
+	border-radius: 18px;
+	position: absolute;
+	top: 5px;
+	left: 188px;
+	color: #02B875;
+}
+
+#follow p{
+	position: absolute;
+	top: -2.5px;
+	left: 8px;
+}
+
+#body-page{
+	margin: 18px 0 0 0;
+}
+
+h1{
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+}
+
+#body{
+	font-size: 1.2rem;
+	line-height: 1.9rem;
+	padding: 30px 0 0 0;
+}
+
+hr{
+	border-top: 1px solid #d9d9d9;
+}
