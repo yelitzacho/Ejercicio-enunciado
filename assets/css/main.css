@@ -38,7 +38,7 @@
 	font-size: 35px;
 }
 
-#barra-vertical{
+.barra-vertical{
 	position: absolute;
 	top: 0;
 	left: 55px;
@@ -75,7 +75,7 @@
 	font-size: 0.9rem;
 }
 
-.icon-chevron-thin-down{
+ #header .icon-chevron-thin-down{
 	position: absolute;
 	top: 4px;
 	left: 81px;
@@ -89,11 +89,11 @@
 	color: #7A7A7A;
 }
 
-.icon-twitter{
+#header .icon-twitter{
 	position: absolute;
 }
 
-.icon-facebook{
+#header .icon-facebook{
 	position: absolute;
 	left: 35px;
 }
@@ -208,6 +208,54 @@ h1{
 	font-family: 'Cambria', serif;
 }
 
-hr{
+footer{
+	position: relative;
+	height: 50px;
+	top: 60px;
+	font-family: 
+}
+
+#footer hr{
 	border-top: 1px solid #d9d9d9;
 }
+
+#bottom-body{
+	width: 700px;
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;;
+	top: 11px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: 0 auto;
+	font-size: 22px;
+}
+
+#iconos-redes-left{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.heart-outlined{
+	color: green;
+	font-size: 25px;
+}
+
+.icon-Speech-Bubble{
+	color: green;
+	font-size: 25px;
+}
+
+#iconos-redes-right{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#leyend{
+	position: absolute;
+	top: 0;
+	right: 50px;
+}
+
